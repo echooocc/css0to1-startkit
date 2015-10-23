@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   display:block;
   width: 60px;
   margin: 10px auto;
+
   border-bottom: 3px solid black;
 }
 
@@ -106,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 30%;
   float: left;
   padding-top: 100px;
+
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -133,8 +135,63 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .photos__list img{
-  box-sizing: border-box;
   float: left;
   width: 25%;
+
   padding: 10px;
+  box-sizing: border-box;
+}
+
+.get-in-touch__list__item{
+  float: left;
+  width: 20%;
+  margin: 2%;
+
+  text-align: center;
+}
+
+.get-in-touch__list__item img{
+  width: 120px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+form{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.contact__item{
+  position: relative;
+  margin: 40px auto;
+}
+
+.contact__item input,
+.contact__item textarea{
+  width: 60%;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+.contact__item button{
+  margin-top: 30px;
+  width: 100%;
 }

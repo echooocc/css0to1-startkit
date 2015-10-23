@@ -137,20 +137,20 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
         <header>
           <h2>Get in Touch</h2>
         </header>
-        <ul class="get-in-touch__list">
-          <li>
+        <ul class="get-in-touch__list clearfix">
+          <li class="get-in-touch__list__item">
             <a href="#"><img src="img/fb-icon.png" alt=""></a>
             <p>Facebook</p>
           </li>
-          <li>
+          <li class="get-in-touch__list__item">
             <img src="img/twitter-icon.png" alt="">
             <p>Twitter</p>
           </li>
-          <li>
+          <li class="get-in-touch__list__item">
             <img src="img/linkedin-icon.png" alt="">
             <p>LinkedIn</p>
           </li>
-          <li>
+          <li class="get-in-touch__list__item">
             <img src="img/email-icon.png" alt="">
             <p>Email</p>
           </li>
@@ -162,13 +162,21 @@ See: http://www.sitepoint.com/web-foundations/doctypes/
           <h2>Or...Leave a Message</h2>
         </header>
         <form action="">
-          <label for="name">Name</label>
-          <input name="name" id="name" type="text">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-          <button type="submit">Submit</button>
+          <div class="contact__item">
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text">
+          </div>
+          <div class="contact__item">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email">
+          </div>
+          <div class="contact__item">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <div class="contact__item">
+            <button type="submit">Submit</button>
+          </div>
         </form>
       </section>
 
