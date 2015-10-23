@@ -72,7 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section{
   padding: 30px 60px;
-  margin-bottom: 10px;
   background-color: #fff;
 }
 
@@ -91,11 +90,11 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
 }
 
-.whatido ul{
+.info-section ul{
   list-style: none;
 }
 
-.whatido header h2:after{
+.info-section header h2:after{
   content:"";
   display:block;
   width: 60px;
@@ -121,4 +120,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .whatido__skill--product {
   background-image: url(../img/skill-product.png);
+}
+
+.education-experience__list img{
+  width: 180px;
+  margin: 15px 20px;
+}
+
+.education-experience__list__description{
+  float: right;
+  width: 70%;
+}
+
+.photos__list img{
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
