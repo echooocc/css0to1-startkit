@@ -1,0 +1,58 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 960px) {
+  .container,
+  .whatido__skill{
+    width: 100%;
+    text-align: center;
+  }
+
+  .info-section{
+    padding: 10px;
+  }
+
+  .whatido__skill{
+    margin-bottom: 20px;
+  }
+
+  .education-experience__list__description{
+    float: none;
+    width: 95%;
+    padding: 10px;
+    text-align: left;
+  }
+
+  .education-experience header h2 span{
+    display: block;
+  }
+
+  .photos__list img{
+    float: none;
+    width: 100%;
+  }
+
+  .get-in-touch__list__item{
+    width: 35%;
+  }
+
+  .get-in-touch__list__item img{
+    width: 100px;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  .contact__item{
+    text-align: left;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  ul:not(.get-in-touch__list) {
+    padding: 0;
+  }
+  .main-nav ul li{
+    display: block;
+  }
+}
